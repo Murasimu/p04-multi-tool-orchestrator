@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: multi-tool-orchestrator
+Version: 1.0.0
+Summary: Multi-tool orchestrator: dynamic registry, capability routing, permission scoping, parallel DAG execution, conflict resolution
+Requires-Python: >=3.10
+Provides-Extra: demo
+Requires-Dist: openai>=1.40; extra == "demo"
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"

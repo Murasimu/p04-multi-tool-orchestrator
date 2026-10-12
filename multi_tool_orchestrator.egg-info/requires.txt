@@ -1,0 +1,6 @@
+
+[demo]
+openai>=1.40
+
+[dev]
+pytest>=8

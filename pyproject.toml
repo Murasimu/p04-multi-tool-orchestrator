@@ -1,0 +1,13 @@
+[project]
+name = "multi-tool-orchestrator"
+version = "1.0.0"
+description = "Multi-tool orchestrator: dynamic registry, capability routing, permission scoping, parallel DAG execution, conflict resolution"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+demo = ["openai>=1.40"]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
